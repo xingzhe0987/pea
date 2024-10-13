@@ -26,7 +26,7 @@ public class SysUserLoginController {
     @PostMapping(value = "/login")
     @SysLogInterface(title = "登录", businessType = BusinessType.GRANT)
     public Result<LoginResult> login(@RequestBody SysUserLoginParam sysUserLoginParam) {
-        // 获取系统验证码开关 test github push  by token  
+        // 获取系统验证码开关 test github push  b y token  
         // boolean sw = Boolean.parseBoolean(ParamResolver.getStr(ConfigEnums.SYS_CAPTCHA_IMG.name(), "true"));
         // if (sw) {
         // 验证码校验
